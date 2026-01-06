@@ -1,0 +1,19 @@
+"--endian=little" 
+
+"--cpu=Cortex-M4" 
+
+"--fpu=VFPv4_SP" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CONFIG\debugger\Toshiba\TMPM470FZFG.ddf" 
+
+"--semihosting" 
+
+"--device=TMPM470FZFG" 
+
+"--multicore_nr_of_cores=1" 
+
+
+
+

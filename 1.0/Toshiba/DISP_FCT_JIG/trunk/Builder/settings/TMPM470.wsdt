@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>TMPM470/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>234</Column0><Column1>27</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1647</ColumnWidth1><ColumnWidth2>101</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1862</ColumnWidth1></Debug-Log><Select-Ambiguous-Definitions><ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Select-Ambiguous-Definitions></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-24294-28487</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>TMPM470</ExpandedNode><ExpandedNode>TMPM470/02.Process</ExpandedNode><ExpandedNode>TMPM470/02.Process/Include</ExpandedNode><ExpandedNode>TMPM470/02.Process/Source</ExpandedNode><ExpandedNode>TMPM470/04.Middleware</ExpandedNode><ExpandedNode>TMPM470/04.Middleware/Include</ExpandedNode><ExpandedNode>TMPM470/04.Middleware/Source</ExpandedNode><ExpandedNode>TMPM470/05.System</ExpandedNode><ExpandedNode>TMPM470/05.System/Include</ExpandedNode><ExpandedNode>TMPM470/05.System/Source</ExpandedNode><ExpandedNode>TMPM470/06.Library</ExpandedNode><ExpandedNode>TMPM470/07.Device</ExpandedNode><ExpandedNode>TMPM470/07.Device/Include</ExpandedNode><ExpandedNode>TMPM470/07.Device/Source</ExpandedNode><ExpandedNode>TMPM470/1.Application</ExpandedNode><ExpandedNode>TMPM470/1.Application/include</ExpandedNode><ExpandedNode>TMPM470/1.Application/source</ExpandedNode><ExpandedNode>TMPM470/2.Component</ExpandedNode><ExpandedNode>TMPM470/2.Component/include</ExpandedNode><ExpandedNode>TMPM470/2.Component/source</ExpandedNode><ExpandedNode>TMPM470/3.Library</ExpandedNode><ExpandedNode>TMPM470/3.Library/include</ExpandedNode><ExpandedNode>TMPM470/3.Library/source</ExpandedNode><ExpandedNode>TMPM470/4.Driver</ExpandedNode><ExpandedNode>TMPM470/4.Driver/include</ExpandedNode><ExpandedNode>TMPM470/4.Driver/source</ExpandedNode><ExpandedNode>TMPM470/5.Hardware</ExpandedNode><ExpandedNode>TMPM470/5.Hardware/include</ExpandedNode><ExpandedNode>TMPM470/5.Hardware/source</ExpandedNode><ExpandedNode>TMPM470/6.VariableSource</ExpandedNode><ExpandedNode>TMPM470/6.VariableSource/include</ExpandedNode><ExpandedNode>TMPM470/6.VariableSource/source</ExpandedNode><ExpandedNode>TMPM470/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30569-5836</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-1393-4667</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-27552-10365</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\4.Driver\Source\WRRTOS.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>45</YPos2><SelStart2>2434</SelStart2><SelEnd2>2434</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\4.Driver\Include\WRRTOS.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>221</YPos2><SelStart2>8191</SelStart2><SelEnd2>8191</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\4.Driver\Source\WROS_Cortex_register.s</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>4</YPos2><SelStart2>20</SelStart2><SelEnd2>20</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\3.Library\Source\Lib_UartComm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>326</SelStart2><SelEnd2>326</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\3.Library\Source\Lib_EEPROM.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>95</SelStart2><SelEnd2>95</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\2.Component\Source\Cmp_SetError.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>471</SelStart2><SelEnd2>471</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\2.Component\Source\Cmp_LQC_Process.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>486</SelStart2><SelEnd2>486</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\2.Component\Source\Cmp_Display_Service.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>477</SelStart2><SelEnd2>477</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\3.Library\Source\Lib_CommSubMicom.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>583</SelStart2><SelEnd2>583</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\4.Driver\Source\WROS_Register.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>264</YPos2><SelStart2>9201</SelStart2><SelEnd2>9201</SelEnd2></Tab><ActiveTab>9</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\6.VariableSource\Source\Vable_ModelInformation.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>95</SelStart2><SelEnd2>95</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\6.VariableSource\Include\Vable_ModelInformation.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>193</SelStart2><SelEnd2>193</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\1.Application\Include\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>483</SelStart2><SelEnd2>483</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\1.Application\Source\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>6</YPos2><SelStart2>1270</SelStart2><SelEnd2>1270</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\00.Code\4.Driver\Source\DDI_BootingDriver.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3</YPos2><SelStart2>667</SelStart2><SelEnd2>667</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-04ED61D8><key>iaridepm.enu1</key></Toolbar-04ED61D8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>715</Bottom><Right>325</Right><x>-2</x><y>-2</y><xscreen>389</xscreen><yscreen>2</yscreen><sizeHorzCX>202604</sizeHorzCX><sizeHorzCY>2022</sizeHorzCY><sizeVertCX>170313</sizeVertCX><sizeVertCY>724975</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>229</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>231</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>233569</sizeHorzCY><sizeVertCX>202604</sizeVertCX><sizeVertCY>2022</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
