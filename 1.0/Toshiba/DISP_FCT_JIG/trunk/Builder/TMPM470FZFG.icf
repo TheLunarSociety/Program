@@ -1,0 +1,55 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+/*-Specials-*/
+define symbol __ICF_EDIT_intvec_start__ 		= 0x4000;
+/*-Memory Regions-*/
+
+
+
+define symbol __ICF_EDIT_region_ROM_start__   = 0x00004000;
+define symbol __ICF_EDIT_region_ROM_end__     = 0x0005FFEF;
+
+define symbol __ICF_EDIT_region_RAM_start__   = 0x20000000;
+define symbol __ICF_EDIT_region_RAM_end__     = 0x20003FFF;
+define symbol __ICF_HEAP_region_RAM_start__   = 0x20004000;
+define symbol __ICF_HEAP_region_RAM_end__     = 0x20006FFF;
+define symbol __ICF_WROS_region_RAM_start__   = 0x20007000;
+define symbol __ICF_WROS_region_RAM_end__     = 0x200087FF;
+
+/*-Sizes-*/
+define symbol __ICF_EDIT_size_cstack__   = 0x800;
+define symbol __ICF_EDIT_size_heap__     = 0x400;
+define symbol __VDE_CheckSum_region__	= 0x0005FF00;   
+/**** End of ICF editor section. ###ICF###*/ 
+
+
+define memory mem with size = 4G;
+define region ROM_region   	  = mem:[from __ICF_EDIT_region_ROM_start__   to __ICF_EDIT_region_ROM_end__];
+define region RAM_region          = mem:[from __ICF_EDIT_region_RAM_start__   to __ICF_EDIT_region_RAM_end__];
+define region WROS_region   	  = mem:[from __ICF_WROS_region_RAM_start__   to __ICF_WROS_region_RAM_end__];
+
+
+
+
+define block CSTACK    with alignment = 8, size = __ICF_EDIT_size_cstack__   { };
+define block HEAP      with alignment = 8, size = __ICF_EDIT_size_heap__     { };
+
+initialize by copy { readwrite, section RAMCODE };
+do not initialize  { section .noinit };
+
+
+
+
+place at address mem:0x00000000 { section .bootloader };
+place at address mem:__ICF_EDIT_intvec_start__ { readonly section .intvec };
+place at address mem:__VDE_CheckSum_region__ {section VDE_checksum_section};
+//place at address mem:__Memory_region__ {section Memory_section };
+
+
+
+
+
+place in ROM_region   { readonly };
+place in RAM_region   { readwrite, block CSTACK, block HEAP };
+place in WROS_region  { readwrite section WROS_section };
