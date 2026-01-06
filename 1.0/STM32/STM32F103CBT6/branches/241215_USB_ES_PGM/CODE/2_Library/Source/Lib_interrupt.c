@@ -4,41 +4,41 @@
 
 
 
-//USBä¸­æ–­å¤„ç†å‡½æ•°
+//USBÖÐ¶Ï´¦Àíº¯Êý
 void USB_LP_CAN1_RX0_IRQHandler(void)
 {
 	USB_Istr();
 }
 
-//USBå”¤é†’ä¸­æ–­æœåŠ¡å‡½æ•°
+//USB»½ÐÑÖÐ¶Ï·þÎñº¯Êý
 void USBWakeUp_IRQHandler(void)
 {
-	EXTI_ClearITPendingBit(EXTI_Line18);//æ¸…é™¤USBå”¤é†’ä¸­æ–­æŒ‚èµ·ä½
+	EXTI_ClearITPendingBit(EXTI_Line18);//Çå³ýUSB»½ÐÑÖÐ¶Ï¹ÒÆðÎ»
 }
 
 
-void USART1_IRQHandler(void)                	//ä¸²å£1ä¸­æ–­æœåŠ¡ç¨‹åº
+void USART1_IRQHandler(void)                	//´®¿Ú1ÖÐ¶Ï·þÎñ³ÌÐò
 {
 	u8 Res;
 	
-	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)  //æŽ¥æ”¶ä¸­æ–­(æŽ¥æ”¶åˆ°çš„æ•°æ®å¿…é¡»æ˜¯0x0d 0x0aç»“å°¾)
+	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)  //½ÓÊÕÖÐ¶Ï(½ÓÊÕµ½µÄÊý¾Ý±ØÐëÊÇ0x0d 0x0a½áÎ²)
 	{
-		Res = USART_ReceiveData(USART1);	//è¯»å–æŽ¥æ”¶åˆ°çš„æ•°æ®
+		Res = USART_ReceiveData(USART1);	//¶ÁÈ¡½ÓÊÕµ½µÄÊý¾Ý
 
-		if((USART_RX_STA & 0x8000) == 0)//æŽ¥æ”¶æœªå®Œæˆ
+		if((USART_RX_STA & 0x8000) == 0)//½ÓÊÕÎ´Íê³É
 		{
-			if(USART_RX_STA & 0x4000)//æŽ¥æ”¶åˆ°äº†0x0d
+			if(USART_RX_STA & 0x4000)//½ÓÊÕµ½ÁË0x0d
 			{
 				if(Res != 0x0a)
 				{
-					USART_RX_STA = 0;//æŽ¥æ”¶é”™è¯¯,é‡æ–°å¼€å§‹
+					USART_RX_STA = 0;//½ÓÊÕ´íÎó,ÖØÐÂ¿ªÊ¼
 				}
 				else
 				{
-					USART_RX_STA  |= 0x8000;	//æŽ¥æ”¶å®Œæˆäº†
+					USART_RX_STA  |= 0x8000;	//½ÓÊÕÍê³ÉÁË
 				}
 			}
-			else //è¿˜æ²¡æ”¶åˆ°0X0D
+			else //»¹Ã»ÊÕµ½0X0D
 			{
 				if(Res == 0x0d)
 				{
@@ -51,7 +51,7 @@ void USART1_IRQHandler(void)                	//ä¸²å£1ä¸­æ–­æœåŠ¡ç¨‹åº
 					
 					if(USART_RX_STA > (USART_REC_LEN - 1))
 					{	
-						USART_RX_STA = 0;//æŽ¥æ”¶æ•°æ®é”™è¯¯,é‡æ–°å¼€å§‹æŽ¥æ”¶
+						USART_RX_STA = 0;//½ÓÊÕÊý¾Ý´íÎó,ÖØÐÂ¿ªÊ¼½ÓÊÕ
 					}
 					else
 					{	;
